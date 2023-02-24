@@ -359,14 +359,14 @@
   top: 100%;
   left: 0;
   width: 100%;
-  max-height: 200px;
+  max-height: 300px;
   overflow-y: auto;
   background-color: #1D3852;
   border-radius: 0 0 10px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
   z-index: 1;
   transition: opacity 0.2s ease-in-out;
-  padding: 1em 0 0 0;
+  padding: 1em;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -402,5 +402,5 @@
 }
 
 .options > div:not(:last-child){
-  border-bottom: dashed 1px #000;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.29);
 }
